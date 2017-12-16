@@ -1,0 +1,331 @@
+/*
+  Author: Richard Chiriboga
+  Version: 1.0.0
+  Created: December 2017
+  File Description: Main CSS File for the Travel With Purpose Website.
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #4c5667;
+  background: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  padding-top: 50px;
+}
+
+::selection{
+  background: #46c2ca;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #46c2ca;
+  color: #fff;
+}
+textarea {
+  resize:none;
+}
+
+
+a{color:#28B6A8;}
+a:hover,a:focus,.a:active {
+  text-decoration: none;
+  outline: none !important;
+}
+
+.active-text {
+  background-color: #d27d62;
+  padding: 0 10px;
+  color: #ffffff;
+}
+.donate-text {
+    background-color: #46c2ca;
+    padding: 10px;
+    color: #ffffff;
+}
+h1,.h1 {
+  font-weight: 700;
+  line-height: 48px;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+.get_involved{background-color:#fff;border:1px solid #f2f2f2;}
+
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.bg-gray {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #f6f6f6;
+  border-top: 1px solid #f6f6f6;
+}
+
+.bg-dark {
+  background-color: #334159;
+  position: relative;
+  background-image: url("../images/bg-pattern.png");
+  background-repeat: repeat;
+}
+
+.bg-img-1 {
+    background: url('../img/hp-main.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.bg-img-2 {
+  background: url('../img/we-wont-give-up.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #d27d62;
+}
+
+.title {
+  font-weight: 300;
+  line-height: 50px;
+  margin-top: 0px;
+}
+.text-muted {
+  color: #97a0af;
+}
+
+.bg-custom {
+  background-color: #d27d62 !important;
+}
+.vertical-content {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+}
+.frame-border {
+  border: 9px solid rgba(0, 0, 0, 0.3);
+  webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 11px 30px;
+}
+.btn-custom {
+  background: #28B6A8;
+  -webkit-box-shadow: 0px 2px 0px #28B6A8 !important;
+  box-shadow: 0px 2px 0px #28B6A8 !important;
+  color: #ffffff !important;
+}
+.btn-custom:focus,.btn-custom:hover {
+  background: #28B6A8;
+  border: 1px solid #28B6A8;
+  outline: none;
+}
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+    color: #4c5667 !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .logo img {
+      float: left;
+      margin-right: 10px;
+      margin-top: -3px;
+  }
+.logo i{
+  font-size: 28px;
+  vertical-align: middle;
+  color: #46c2ca;
+}
+.logo span{
+  vertical-align: middle;
+}
+.home-wrapper {
+  color: #ffffff;
+  padding: 150px 0px 150px 0px;
+}
+.home-wrapper h1{text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);}
+.home-wrapper p {
+  line-height: 26px;
+  margin-top: 30px;
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+.features-txt {
+  color: #97a0af;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.modal-body .features-txt{margin-top:0;}
+.section-cta {
+  color: #ffffff;
+  padding: 100px 0;
+}
+
+.section-cta p {
+  font-size: 18px;
+}
+
+.section-cta h2{
+  margin: 40px;
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer a{
+  color: #4c5667;
+}
+
+.footer a:hover {
+  color: #28B6A8 !important;
+}
+
+.menu-list li a {
+  color: #4c5667;
+  display: inline-block;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.social-circle {
+  margin: 50px 0 20px 0;
+}
+
+.social-circle li a {
+  height: 36px;
+  width: 36px;
+  color: #4c5667;
+  border-radius: 50%;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 36px;
+  background-color: #ededed;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.social-circle li a:hover {
+  color: #ffffff !important;
+  background-color: #28B6A8;
+}
+.home-intro h1{
+  margin: 0;
+  font-size: 32px;
+  line-height: 46px;
+}
+
+.home-intro .home-wrapper {
+  padding: 150px 0px 150px 0px;
+}
+
+.intro {
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 10px;
+  border-bottom: 0;
+}
+
+.intro .topbar {
+  background-color: #28B6A8;
+  color: #fff;
+  padding: 30px;
+  display: block;
+}
+.intro a{color:#fff;}
+.intro h3{
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.subscribe-form form{
+  position: relative;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.subscribe-form input {
+  padding: 15px 20px;
+  width: 100%;
+  font-size: 17px;
+  color: #4c5667 !important;
+  border: none;
+  outline: none !important;
+  padding-right: 150px;
+  padding-left: 30px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 30px;
+}
+.subscribe-form button {
+  position: absolute;
+  text-transform: uppercase;
+  top: 4px;
+  right: 4px;
+  outline: none !important;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 9px 30px;
+}
+
+@media (max-width: 991px) {
+  .logo{font-size:14px;}
+}
+@media (max-width: 768px) {
+  .feature-detail {
+    padding: 0px 0px 50px 30px !important;
+  }
+  .home-intro .home-wrapper {
+    padding: 70px 0px 70px 0px;
+    text-align:center;
+  }
+}
+@media (max-width: 420px) {
+  .h1, h1 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .h2, h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .home-wrapper {
+    padding: 30px 0 !important;
+  }
+}
+
+.navbar{margin-bottom:0;}
