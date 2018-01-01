@@ -329,3 +329,10 @@ iframe {
 }
 
 .navbar{margin-bottom:0;}
+
+
+@keyframes picIn{ 0%{transform:translateX(-100%)} 100%{transform:translateX(0)} }
+.pic-animate-in{animation:2.5s ease-out 0s 1 picIn}
+@media screen and (prefers-reduced-motion: reduce){
+    .pic-animate-in{animation:none}
+}
